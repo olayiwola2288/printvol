@@ -1,0 +1,20 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background-color: #f7f6f4;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 50px; */
+}
+.con {
+  padding: 0 20px;
+}
+.col {
+  color: rgb(0, 140, 255);
+}
+.ime {
+  width: 20px;
+}

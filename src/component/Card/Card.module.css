@@ -1,0 +1,13 @@
+.productImage {
+  transition: transform 0.3s;
+  max-width: 100%;
+  display: block;
+}
+.productImage:hover {
+  transform: scale(1.02);
+  /* border-radius: 10px; */
+  /* overflow: hidden; */
+}
+.text {
+  font-weight: bold;
+}
