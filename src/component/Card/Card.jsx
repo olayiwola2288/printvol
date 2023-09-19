@@ -1,4 +1,5 @@
 import styles from "./Card.module.css";
+import image from "../../assets/The product/1572522725_flyer-1sided.png";
 
 function Card() {
   return (
@@ -22,7 +23,7 @@ function Card() {
         </div>
         <div className="card" style={{ width: "18rem" }}>
           <img
-            src=" ./src/assets/The product/1572522725_flyer-1sided.png"
+            src={image}
             className={styles.productImage}
             alt="..."
             style={{ width: "350px", height: "250px" }}
