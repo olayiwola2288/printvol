@@ -15,7 +15,7 @@ function HeroBody() {
           <textarea
             name=""
             id=""
-            cols="50"
+            cols="40"
             rows="1"
             placeholder=" Search for business card, T-shirt,Mugs,etc"
             className={` py-3 `}

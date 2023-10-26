@@ -18,8 +18,8 @@ import image14 from "../../assets/The product/Group_61_h8vxko.png";
 function Card() {
   return (
     <>
-      <section className="my-3 mx-2 d-lg-flex justify-content-between">
-        <div className="card" style={{ width: "18rem" }}>
+      <section className="my-3 mx-5 d-lg-flex justify-content-between">
+        <div className="card my-4" style={{ width: "18rem" }}>
           <img
             src={image}
             className={styles.productImage}
@@ -35,7 +35,7 @@ function Card() {
             </button>
           </div>
         </div>
-        <div className="card" style={{ width: "18rem" }}>
+        <div className="card my-4" style={{ width: "18rem" }}>
           <img
             src={image1}
             className={styles.productImage}
@@ -51,7 +51,8 @@ function Card() {
             </button>
           </div>
         </div>
-        <div className="card" style={{ width: "18rem" }}>
+
+        <div className="card my-4" style={{ width: "18rem" }}>
           <img
             src={image2}
             className={styles.productImage}
@@ -69,7 +70,8 @@ function Card() {
             </button>
           </div>
         </div>
-        <div className="card" style={{ width: "18rem" }}>
+
+        <div className="card my-4" style={{ width: "18rem" }}>
           <img
             src={image3}
             className={styles.productImage}
@@ -86,8 +88,8 @@ function Card() {
           </div>
         </div>
       </section>
-      <section className="my-3 mx-2 d-lg-flex justify-content-between">
-        <div className="card" style={{ width: "18rem" }}>
+      <section className="my-3 mx-5 d-lg-flex justify-content-between">
+        <div className="card my-4" style={{ width: "18rem" }}>
           <img
             src={image4}
             className={styles.productImage}
@@ -103,7 +105,8 @@ function Card() {
             </button>
           </div>
         </div>
-        <div className="card" style={{ width: "18rem" }}>
+
+        <div className="card my-4" style={{ width: "18rem" }}>
           <img
             src={image5}
             className={styles.productImage}
@@ -119,7 +122,8 @@ function Card() {
             </button>
           </div>
         </div>
-        <div className="card" style={{ width: "18rem" }}>
+
+        <div className="card my-4" style={{ width: "18rem" }}>
           <img
             src={image6}
             className={styles.productImage}
@@ -135,7 +139,8 @@ function Card() {
             </button>
           </div>
         </div>
-        <div className="card" style={{ width: "18rem" }}>
+
+        <div className="card my-4" style={{ width: "18rem" }}>
           <img
             src={image7}
             className={styles.productImage}
@@ -152,8 +157,9 @@ function Card() {
           </div>
         </div>
       </section>
-      <section className="my-3 mx-2 d-lg-flex justify-content-between">
-        <div className="card" style={{ width: "18rem" }}>
+
+      <section className="my-3 mx-5 d-lg-flex justify-content-between">
+        <div className="card my-4" style={{ width: "18rem" }}>
           <img
             src={image8}
             className={styles.productImage}
@@ -169,7 +175,8 @@ function Card() {
             </button>
           </div>
         </div>
-        <div className="card" style={{ width: "18rem" }}>
+
+        <div className="card my-4" style={{ width: "18rem" }}>
           <img
             src={image9}
             className={styles.productImage}
@@ -185,7 +192,8 @@ function Card() {
             </button>
           </div>
         </div>
-        <div className="card" style={{ width: "18rem" }}>
+
+        <div className="card my-4" style={{ width: "18rem" }}>
           <img
             src={image10}
             className={styles.productImage}
@@ -201,7 +209,8 @@ function Card() {
             </button>
           </div>
         </div>
-        <div className="card" style={{ width: "18rem" }}>
+
+        <div className="card my-4" style={{ width: "18rem" }}>
           <img
             src={image11}
             className={styles.productImage}
@@ -225,8 +234,9 @@ function Card() {
         </a>
 
         <h3 className="fw-bold ms-5 mt-4">Popular Categories</h3>
+
         <div className="d-lg-flex mx-5 mt-4">
-          <div className="card mx-3 " style={{ width: "18rem" }}>
+          <div className="card mx-2 my-4 " style={{ width: "18rem" }}>
             <img
               src={image12}
               className={styles.productImage}
@@ -242,7 +252,7 @@ function Card() {
               </button>
             </div>
           </div>
-          <div className="card" style={{ width: "18rem" }}>
+          <div className="card my-4 mx-2" style={{ width: "18rem" }}>
             <img
               src={image13}
               className={styles.productImage}
