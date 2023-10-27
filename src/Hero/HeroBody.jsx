@@ -21,7 +21,7 @@ function HeroBody() {
             placeholder=" Search for business card, T-shirt,Mugs,etc"
             className={` py-3 `}
           ></textarea> */}
-          <input type="search" className=" py-2 px-4 rounded" />
+          <input type="search" className=" py-2 px-4 rounded mb-4" />
         </div>
         <div>
           <img src={img} alt="" className={styles.image} />
