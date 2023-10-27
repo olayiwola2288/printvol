@@ -1,12 +1,13 @@
 import styles from "./Hero.module.css";
+import img from "../../src/assets/printivo-removebg-preview.png";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 function Hero() {
   return (
     <div className={styles.back}>
-      <div className="d-flex justify-content-between mx-4 pt-3">
+      <div className="d-flex justify-content-between mx- pt-3">
         <div>
           <img
-            src="./src/assets/printivo-removebg-preview.png"
+            src={img}
             alt=""
             className="pt-"
           />
@@ -17,7 +18,7 @@ function Hero() {
           <p className="d-none d-md-inline-block ">Merch Store</p>
           <p className="d-none d-md-inline-block ">Marketplace</p>
         </div>
-        <div className="d-flex">
+        <div className="lg-d-flex">
           <button className="mx-4 border border-0  bg-transparent">
             Sign in
           </button>

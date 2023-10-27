@@ -1,4 +1,4 @@
-import "./App.css";
+import styles from "../src/Hero/Hero.module.css";
 import Hero from "./Hero/Hero";
 import HeroBody from "./Hero/HeroBody";
 import HeroCarosel from "./Hero/HeroCarosel";
@@ -8,14 +8,14 @@ import NavBar from "./component/NavBar";
 
 function App() {
   return (
-    <>
+    <div className={styles.body}>
       <NavBar />
       <Hero />
       <HeroBody />
       <HeroCarosel />
       <Card />
       <Custormer />
-    </>
+    </div>
   );
 }
 

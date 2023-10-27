@@ -1,4 +1,5 @@
 import styles from "./Hero.module.css";
+import img from "../../src/assets/Card3_n9kqin.png";
 
 function HeroBody() {
   return (
@@ -12,21 +13,18 @@ function HeroBody() {
             Shipped to your doorstep
           </h4>
           <p className="mt-5 fs-4">What would you like to print today?</p>
-          <textarea
+          {/* <textarea
             name=""
             id=""
             cols="40"
             rows="1"
             placeholder=" Search for business card, T-shirt,Mugs,etc"
             className={` py-3 `}
-          ></textarea>
+          ></textarea> */}
+          <input type="search" className=" py-2 px-4 rounded" />
         </div>
         <div>
-          <img
-            src="./src/assets/Card3_n9kqin.png"
-            alt=""
-            className={styles.image}
-          />
+          <img src={img} alt="" className={styles.image} />
         </div>
       </div>
     </div>
